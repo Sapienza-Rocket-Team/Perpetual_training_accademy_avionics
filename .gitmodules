@@ -1,0 +1,6 @@
+[submodule "perpetual_code"]
+	path = perpetual_code
+	url = https://github.com/rotellini9809/perpetual_code.git
+[submodule "perpetual_pcb"]
+	path = perpetual_pcb
+	url = https://github.com/rotellini9809/perpetual_pcb.git

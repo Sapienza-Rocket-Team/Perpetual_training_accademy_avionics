@@ -18,3 +18,20 @@ Perpetual contains independently licensed submodules:
 
 Each submodule retains its own license.
 Third-party materials retain their respective licenses.
+
+## Getting started
+
+Clone this repository together with its submodules:
+
+```sh
+git clone --recurse-submodules https://github.com/Sapienza-Rocket-Team/Perpetual_training_accademy_avionics.git
+```
+
+For an existing clone, initialize the pinned submodule versions with:
+
+```sh
+git submodule update --init --recursive
+```
+
+- [perpetual_code](perpetual_code): firmware and desktop application.
+- [perpetual_pcb](perpetual_pcb): hardware design files and documentation.
