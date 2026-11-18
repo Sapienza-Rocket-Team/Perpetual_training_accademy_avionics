@@ -1,10 +1,27 @@
 Required Notice: Copyright © 2026 Simone Cargnin
 Required Notice: Perpetual — originally developed by Simone Cargnin for the Sapienza Rocket Team Training Academy.
 Required Notice: Original project: https://github.com/rotellini9809/perpetual_code.git
-Source: Perpetual Flight Console (perpetual_code/perpetual_app).
-License: https://polyformproject.org/licenses/noncommercial/1.0.0
 
-Screenshots captured on 2026-11-17. Sensor data is from the USB-connected
-board. Configuration examples are unapplied local drafts. Flight plots show
-the repository Hoppino CSV with legacy phase overlays disabled.
-The original logo is reproduced unchanged.
+Software images: PolyForm Noncommercial 1.0.0.
+Source revision: 08b980a4ef2cb47a916d795cee3fa3727a31617b
+https://github.com/rotellini9809/perpetual_code
+- dashboard.png: docs/images/app/dashboard.png
+- configuration.png: docs/images/app/configuration-rules.png
+- simulation.png: docs/images/app/simulation-done.png
+- flights-download.png: docs/images/app/flights-download.png
+These images are reproduced unchanged from the software repository.
+The original Perpetual logo is reproduced unchanged.
+
+Legacy screenshots retained in this directory: sensors.png, settings.png,
+flight-plots.png. Captured on 2026-11-17 from the Perpetual app: USB-connected
+sensor readings, initial board settings and the Hoppino CSV with legacy phase
+overlays disabled. They are not the screenshots used in the current README.
+
+Hardware images: Copyright © 2026 Simone Cargnin.
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+Source revision: 9f5c9d305ebe565155f0c1e660ff072121e922f1
+https://github.com/rotellini9809/perpetual_pcb
+- pcb-front.png: docs/images/pcb-front.png
+- pcb-back.png: docs/images/pcb-back.png
+Both images are reproduced unchanged.
