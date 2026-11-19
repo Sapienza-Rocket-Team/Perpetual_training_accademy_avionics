@@ -33,8 +33,8 @@ This repository pins the hardware and software revisions together using **Git su
 
 | Project | What it contains |
 | --- | --- |
-| [perpetual_code](perpetual_code) | Firmware, desktop app, simulation tools, tests and technical documentation |
-| [perpetual_pcb](perpetual_pcb) | KiCad schematics, PCB layout, component libraries and fabrication files |
+| [perpetual_code](https://github.com/rotellini9809/perpetual_code) | Firmware, desktop app, simulation tools, tests and technical documentation |
+| [perpetual_pcb](https://github.com/rotellini9809/perpetual_pcb) | KiCad schematics, PCB layout, component libraries and fabrication files |
 
 ## The system
 
