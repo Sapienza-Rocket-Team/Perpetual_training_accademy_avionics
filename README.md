@@ -121,6 +121,9 @@ git submodule update --init --recursive
 These commands use the **pinned commits**. `git submodule update --remote` instead follows
 upstream branches and is intended for maintainers choosing new revisions.
 
+Links in this README open the latest documentation on each repository's `main` branch, which can be
+ahead of the pinned commits.
+
 ### 2. Build and upload the firmware
 
 Install **PlatformIO Core**, or the PlatformIO extension for VS Code. Connect the board with
@@ -164,10 +167,11 @@ the schematics, four-layer layout, project libraries and Gerber/drill files. Rea
 | Browse firmware and app documentation | [Documentation map][docs] |
 | Build, test and run diagnostics | [Test guide][tests] |
 | Review recorded verification results | [Validation][validation] |
-| Find pin assignments and sensor details | [Hardware reference][pinout] |
+| Find pin assignments, board circuits and sensor details | [Hardware reference][pinout] |
+| Check board size and mounting holes | [Mechanical drawing][mechanical] |
 | Inspect or manufacture the PCB | [Hardware project][hardware] |
 
-Documentation links refer to the same revisions as the submodules.
+Documentation links open each repository's `main` branch.
 
 ## Author and licenses
 
@@ -186,14 +190,15 @@ projects. Image sources and attribution are listed in [docs/images/NOTICE](docs/
 For commercial permissions, contact **rotellini9809@gmail.com**. Notification of research use
 is appreciated at the same address; it is voluntary, not a license condition.
 
-[firmware]: https://github.com/rotellini9809/perpetual_code/tree/08b980a4ef2cb47a916d795cee3fa3727a31617b#quick-start
-[hardware]: https://github.com/rotellini9809/perpetual_pcb/tree/9f5c9d305ebe565155f0c1e660ff072121e922f1
-[app-guide]: https://github.com/rotellini9809/perpetual_code/blob/08b980a4ef2cb47a916d795cee3fa3727a31617b/docs/APP_GUIDE.md
-[airbrakes]: https://github.com/rotellini9809/perpetual_code/blob/08b980a4ef2cb47a916d795cee3fa3727a31617b/docs/technical/AIRBRAKES.md
-[docs]: https://github.com/rotellini9809/perpetual_code/blob/08b980a4ef2cb47a916d795cee3fa3727a31617b/docs/README.md
-[tests]: https://github.com/rotellini9809/perpetual_code/blob/08b980a4ef2cb47a916d795cee3fa3727a31617b/docs/testing/README.md
-[validation]: https://github.com/rotellini9809/perpetual_code/blob/08b980a4ef2cb47a916d795cee3fa3727a31617b/docs/testing/VALIDATION.md
-[pinout]: https://github.com/rotellini9809/perpetual_code/blob/08b980a4ef2cb47a916d795cee3fa3727a31617b/docs/HARDWARE.md
-[software-license]: https://github.com/rotellini9809/perpetual_code/blob/08b980a4ef2cb47a916d795cee3fa3727a31617b/LICENSE
-[software-notice]: https://github.com/rotellini9809/perpetual_code/blob/08b980a4ef2cb47a916d795cee3fa3727a31617b/NOTICE
-[hardware-license]: https://github.com/rotellini9809/perpetual_pcb/blob/9f5c9d305ebe565155f0c1e660ff072121e922f1/LICENSE
+[firmware]: https://github.com/rotellini9809/perpetual_code#quick-start
+[hardware]: https://github.com/rotellini9809/perpetual_pcb/tree/main
+[app-guide]: https://github.com/rotellini9809/perpetual_code/blob/main/docs/APP_GUIDE.md
+[airbrakes]: https://github.com/rotellini9809/perpetual_code/blob/main/docs/technical/AIRBRAKES.md
+[docs]: https://github.com/rotellini9809/perpetual_code/blob/main/docs/README.md
+[tests]: https://github.com/rotellini9809/perpetual_code/blob/main/docs/testing/README.md
+[validation]: https://github.com/rotellini9809/perpetual_code/blob/main/docs/testing/VALIDATION.md
+[pinout]: https://github.com/rotellini9809/perpetual_code/blob/main/docs/HARDWARE.md
+[software-license]: https://github.com/rotellini9809/perpetual_code/blob/main/LICENSE
+[software-notice]: https://github.com/rotellini9809/perpetual_code/blob/main/NOTICE
+[mechanical]: https://github.com/rotellini9809/perpetual_pcb#mechanical
+[hardware-license]: https://github.com/rotellini9809/perpetual_pcb/blob/main/LICENSE
